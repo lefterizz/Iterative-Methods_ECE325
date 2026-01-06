@@ -91,16 +91,17 @@ The graph contains 9 vertices:
 The adjacency matrix below follows the country order:  
 UK, Germany, Poland, Austria, France, Spain, Italy, Greece, Cyprus
 
-          UK  Ger Pol Aus Fra Spa Ita Gre Cyp
-UK         0   3   0   0   3   0   0   0   0
-Germany    3   0   3   4   5   0   0   0   0
-Poland     0   3   0   4   0   0   0   0   0
-Austria    0   4   4   0   0   0   3   6   0
-France     3   5   0   0   0   4   6   0   0
-Spain      0   0   0   0   4   0   5   0  11
-Italy      0   0   0   3   6   5   0   4   0
-Greece     0   0   0   6   0   0   4   0   4
-Cyprus     0   0   0   0   0  11   0   4   0
+| Country   | UK | Ger | Pol | Aus | Fra | Spa | Ita | Gre | Cyp |
+|-----------|----|-----|-----|-----|-----|-----|-----|-----|-----|
+| UK        | 0  | 3   | 0   | 0   | 3   | 0   | 0   | 0   | 0   |
+| Germany   | 3  | 0   | 3   | 4   | 5   | 0   | 0   | 0   | 0   |
+| Poland    | 0  | 3   | 0   | 4   | 0   | 0   | 0   | 0   | 0   |
+| Austria   | 0  | 4   | 4   | 0   | 0   | 0   | 3   | 6   | 0   |
+| France    | 3  | 5   | 0   | 0   | 0   | 4   | 6   | 0   | 0   |
+| Spain     | 0  | 0   | 0   | 0   | 4   | 0   | 5   | 0   | 11  |
+| Italy     | 0  | 0   | 0   | 3   | 6   | 5   | 0   | 4   | 0   |
+| Greece    | 0  | 0   | 0   | 6   | 0   | 0   | 4   | 0   | 4   |
+| Cyprus    | 0  | 0   | 0   | 0   | 0   | 11  | 0   | 4   | 0   |
 
 ### Adjacency List
 
